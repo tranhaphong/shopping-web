@@ -1,0 +1,24 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@include file="/WEB-INF/jsp/common/define.jsp"%>
+<style>
+    background-color: #333;  /* Dark background for the footer */
+    color: #fff;             /* White text color for visibility */
+    text-align: center;      /* Center-align the text */
+    padding: 10px 20px;      /* Padding for some breathing room */
+    position: fixed;         /* Makes the footer stick to the bottom */
+    left: 0;                 /* Align to the left edge */
+    bottom: 0;               /* Align to the bottom edge */
+    width: 100%;             /* Full width */
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);  /* Subtle shadow to lift the footer off the page visually */
+}
+
+
+</style>
+
+
+	<div id="footer">
+		<p>copyright hogehoge</p>
+	</div>
+</body>
+</html>

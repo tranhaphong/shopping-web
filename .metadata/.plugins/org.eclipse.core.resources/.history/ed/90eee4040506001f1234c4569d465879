@@ -1,0 +1,8 @@
+spring.mvc.view.prefix=/WEB-INF/jsp/
+spring.mvc.view.suffix= .jsp
+spring.datasource.url=jdbc:postgresql://@db.host.name@:5432/bookshop2
+spring.datasource.username=postgres
+spring.datasource.password=postgres
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+server.port=8097

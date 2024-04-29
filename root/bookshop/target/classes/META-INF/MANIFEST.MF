@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: vytra
+Build-Jdk: 17.0.6
+Implementation-Title: bookshop
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: vn.com.vti.bookshop
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/root/bookshop
+Created-By: Maven Integration for Eclipse
+

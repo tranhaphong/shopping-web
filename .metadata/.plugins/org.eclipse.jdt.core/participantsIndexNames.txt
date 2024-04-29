@@ -1,0 +1,25 @@
+INDEX VERSION 1.131
+C:\Users\vytra\Documents\TAKUMI\shopping web 2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1431774490.index
+\bookshop\src\main\java
+C:\Users\vytra\Documents\TAKUMI\shopping web 2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\124481521.index
+\root\src\main\java
+C:\Users\vytra\Documents\TAKUMI\shopping web 2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\360758785.index
+\root\src\main\java
+C:\Users\vytra\Documents\TAKUMI\shopping web 2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2393135562.index
+\bookshop\src\main\java
+C:\Users\vytra\Documents\TAKUMI\shopping web 2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4226901321.index
+\bookshop\src\main\java
+C:\Users\vytra\Documents\TAKUMI\shopping web 2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2146923095.index
+\bookshop\src\main\java
+C:\Users\vytra\Documents\TAKUMI\shopping web 2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3875204331.index
+\bookshop\src\main\java
+C:\Users\vytra\Documents\TAKUMI\shopping web 2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3509491684.index
+\bookshop\src\main\java
+C:\Users\vytra\Documents\TAKUMI\shopping web 2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2107761601.index
+\root\src\main\java
+C:\Users\vytra\Documents\TAKUMI\shopping web 2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1788526554.index
+\root\src\main\java
+C:\Users\vytra\Documents\TAKUMI\shopping web 2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2404349862.index
+\root\src\main\java
+C:\Users\vytra\Documents\TAKUMI\shopping web 2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1613062401.index
+\root\src\main\java

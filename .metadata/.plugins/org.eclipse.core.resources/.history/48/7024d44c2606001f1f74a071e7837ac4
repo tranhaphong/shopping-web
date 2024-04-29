@@ -1,0 +1,27 @@
+#article {
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    text-align: center; /* Ensure text-align is set to center for the container */
+}
+
+dl {
+    display: inline-block; /* Makes the DL block align to the center */
+    text-align: left; /* Ensures text inside DL aligns to the left */
+    width: 100%; /* Set width to full-width to maintain layout consistency */
+}
+
+dt, dd {
+    margin: auto; /* Centering dt and dd within dl */
+    display: block; /* Stack them vertically */
+}
+
+form:input, form:password {
+    width: 90%; /* Adjust width as needed */
+    padding: 10px;
+    margin: 10px auto; /* Auto margins for horizontal centering */
+    display: block; /* Ensure inputs are treated as block elements to respect margin auto */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

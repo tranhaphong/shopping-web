@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper
+	namespace="vn.com.vti.bookshop.mapper.OrderDetailCustomMapper">
+	<resultMap id="BaseResultMap" type="vn.com.vti.bookshop.entity.OrderDetailWithBook">
+		<result column="book_id" jdbcType="INTEGER" property="bookId" />
+		<result column="book_name" jdbcType="VARCHAR" property="bookName" />
+		<result column="price" jdbcType="INTEGER" property="price" />
+		<result column="discount" jdbcType="INTEGER" property="discount" />
+		<result column="page_count" jdbcType="INTEGER" property="pageCount" />
+		<result column="isbn13" jdbcType="VARCHAR" property="isbn13" />
+		<result column="on_sale_date" jdbcType="DATE" property="onSaleDate" />
+		<result column="publisher_id" jdbcType="INTEGER" property="publisherId" />
+		<result column="category_id" jdbcType="INTEGER" property="categoryId" />
+		<result column="order_detail_id" jdbcType="INTEGER" property="orderDetailId" />
+		<result column="order_detail_no" property="orderDetailNo" />
+		<result column="item_num" property="itemNum" />
+		<result column="item_id" property="itemId" />
+		<result column="order_header_id" property="orderHeaderId" />
+	</resultMap>
+	<select id="selectByOrderHeaderId" resultMap="BaseResultMap">
+		select
+			*
+			,b.id as book_id
+			,od.id as order_detail_id
+		from
+			order_detail as od
+			inner join book as b
+				on od.item_id = b.id
+		where
+			od.order_header_id = #{orderHeaderId}
+	</select>
+</mapper>

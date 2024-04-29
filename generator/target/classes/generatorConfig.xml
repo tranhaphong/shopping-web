@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+
+<generatorConfiguration>
+  <context id="PostgresTables" targetRuntime="MyBatis3">
+
+    <!-- スキーマ情報を取得する DB への接続設定 -->
+    <jdbcConnection driverClass="org.postgresql.Driver"
+        connectionURL="jdbc:postgresql://localhost:5432/bookshop2"
+        userId="postgres"
+        password="postgres">
+    </jdbcConnection>
+
+    <!-- SELECT 結果等を格納するドメインモデルを生成する設定 -->
+    <javaModelGenerator targetPackage="vn.com.vti.bookshop.entity" targetProject="src\main\java">
+    </javaModelGenerator>
+
+    <!-- SQL 設定が記述された XML を生成する設定 -->
+    <sqlMapGenerator targetPackage="vn/com/vti/bookshop/mapper" targetProject="src\main\java">
+    </sqlMapGenerator>
+    <!-- マッパークラスを生成する設定 -->
+    <javaClientGenerator type="XMLMAPPER" targetPackage="vn.com.vti.bookshop.mapper" targetProject="src\main\java">
+    </javaClientGenerator>
+
+    <!-- コードを生成するテーブルを指定 -->
+    <table schema="public" tableName="book"><generatedKey column="id" sqlStatement="JDBC"/></table>
+    <table schema="public" tableName="business_type"><generatedKey column="id" sqlStatement="JDBC"/></table>
+    <table schema="public" tableName="category"><generatedKey column="id" sqlStatement="JDBC"/></table>
+    <table schema="public" tableName="job_type"><generatedKey column="id" sqlStatement="JDBC"/></table>
+    <table schema="public" tableName="member"><generatedKey column="id" sqlStatement="JDBC"/></table>
+    <table schema="public" tableName="order_detail"><generatedKey column="id" sqlStatement="JDBC"/></table>
+    <table schema="public" tableName="order_header"><generatedKey column="id" sqlStatement="JDBC"/></table>
+    <table schema="public" tableName="publisher"><generatedKey column="id" sqlStatement="JDBC"/></table>
+
+
+  </context>
+</generatorConfiguration>

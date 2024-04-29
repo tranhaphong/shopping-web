@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="vn.com.vti.bookshop.security.MemberDetails"/>
+    <fullyQualifiedTypeName name="vn.com.vti.bookshop.entity.Member"/>
+    <fullyQualifiedTypeName name="vn.com.vti.bookshop.dto.CartDto"/>
+    <fullyQualifiedTypeName name="org.springframework.security.core.annotation.AuthenticationPrincipal"/>
+    <fullyQualifiedTypeName name="vn.com.vti.bookshop.entity.OrderHeader"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="vn.com.vti.bookshop.entity.Book"/>
+    <fullyQualifiedTypeName name="vn.com.vti.bookshop.entity.OrderDetail"/>
+    <fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="javax.validation.constraints.AssertFalse"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.InitBinder"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.WebDataBinder"/>
+    <fullyQualifiedTypeName name="vn.com.vti.bookshop.validator.PasswordChangeValidator"/>
+</qualifiedTypeNameHistroy>
